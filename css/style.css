@@ -5,6 +5,7 @@ body {
     /* text-align: center; */
     margin: 0px 0px 10px 0px;
     padding: 0px;
+    font-family: "Mulish", "Trebuchet MS";
 }
 
 hr {
@@ -28,13 +29,14 @@ input[type=submit] {
     text-decoration: none;
 
     font-size: 20px;
-    font-family: "Mulish";
+    font-family: "Mulish", "Trebuchet MS";
     cursor: pointer;
 
     transition: 0.15s;
     margin: 5px;
     width: auto;
     flex-grow: 1;
+    text-indent: 0;
 }
 
 
@@ -76,7 +78,7 @@ input[type=submit]:hover {
     background-color: black;
     text-align: center;
 
-    font-family: "Chakra Petch";
+    font-family: "Chakra Petch", "Trebuchet MS";
     font-size: 100px;
     font-weight: 700;
 
@@ -99,7 +101,7 @@ input[type=submit]:hover {
     background-color: black;
     text-align: center;
 
-    font-family: "Chakra Petch";
+    font-family: "Chakra Petch", "Trebuchet MS";
     font-size: 25px;
     font-weight: 300;
 
@@ -143,17 +145,19 @@ input[type=submit]:hover {
 
 
 /* Sign Up and Sign In pages */
-h3, .content{
+h3,
+.content {
     color: white;
     font-size: x-large;
     width: fit-content;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    font-family: Mulish;
 }
 
-.signInForm, .signUpForm, .pathFinder {
+.signInForm,
+.signUpForm,
+.pathFinder {
     /* border: 2px solid red; */
     color: white;
     margin: auto;
@@ -163,26 +167,24 @@ h3, .content{
     margin-top: 10px;
     margin-bottom: 10px;
 
-    font-family: Mulish; 
-
     font-weight: 500;
     padding: 25px;
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
 }
 
 .password {
     flex-basis: 50px;
 }
 
-.fields{
+.fields {
     /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
 }
 
-.field{
+.field {
     /* border: 2px solid red; */
     display: flex;
     flex-direction: row;
@@ -190,7 +192,11 @@ h3, .content{
     align-items: center;
 }
 
-.box{
+.field input {
+    border-radius: 3px;
+}
+
+.box {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -203,7 +209,9 @@ input[type=radio] {
     height: 1em;
 }
 
-input, textarea, select {
+input,
+textarea,
+select {
     color: aliceblue;
     background-color: black;
     border-style: solid;
@@ -214,10 +222,11 @@ input, textarea, select {
     height: 2.5rem;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-family: "Mulish", "Trebuchet MS";
 }
 
 /* Path finder tool */
-.showPathImg{
+.showPathImg {
     width: 85%;
     margin: auto;
 }
